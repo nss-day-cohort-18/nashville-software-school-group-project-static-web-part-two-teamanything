@@ -71,6 +71,6 @@ for (var i = 0; i < productsList.length; i++) {              //start loop
 		"<h3>" + productsList[i].name + "</h3>" +            
 		"<p>" + productsList[i].price + "</p>" + 
 		"<p>" + productsList[i].description + "</p>" +
-		"<img src=\"\" class=\"images/image1.jpg\">" + productsList[i].url + ">" + "</article>";
+		"<img src=\"images/image1.jpg\" class=\"card-images\">" + productsList[i].url + ">" + "</article>";
 	document.body.appendChild(container);                  //physically add to HTML
 }
