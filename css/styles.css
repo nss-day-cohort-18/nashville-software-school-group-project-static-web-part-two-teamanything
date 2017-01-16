@@ -1,4 +1,7 @@
 
+html body {
+	font-family: Helvetica, Arial, sans-serif;
+
 html {
     height: 100%;
     width: 100%;
@@ -34,9 +37,12 @@ main-content {
 .clearfix {
     overflow: auto;
 }
+  
+  
 /*************
 	NAVBAR
 *************/
+
 .nav {
     height: 100%;
     width: 100%;
@@ -92,7 +98,6 @@ main-content {
 }
 
 
-
 /*************
 	FOOTER
 *************/
@@ -142,7 +147,39 @@ footer ul li:hover a {
 /*************
 	ABOUT
 *************/
+.main-content {
+	margin: 0 auto;
+	padding: 1em;
+	background-color: #f9f9f9;
+	width: 90%;
+	height: 100%;
+	border: 0.3em solid darkblue;
+	border-radius: 1.5em;
+}
 
+.about-content {
+	padding: 1em;
+	display: flex;
+}
+
+.about-inside-content {
+	color: #777;
+}
+.about-inside-content>h1{
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: lighter;
+}
+
+.about-inside-content>p {
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+
+.about-image>img {
+	border-radius: 50%;
+	margin-right: 2em;
+}
 
 
 /*************
