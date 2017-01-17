@@ -94,7 +94,6 @@ header {
 
 .nav-header a li:hover {
     background-color: #464646;
-    margin: px;
     padding: 2px;
     color: white;
     box-shadow: 2px 2px 2px #262626;
@@ -104,18 +103,19 @@ header {
 
 
 .navbar-logo {
-    list-style: none;
-    text-decoration: none;
-/*
-    width: 30%;
+/*    list-style: none;*/
+/*    text-decoration: none;*/
+    width: 20%;
     height: 40%;
-*/
     float: right;
 /*    font-size: 1rem;*/
-    margin-right: 0;
-    padding-bottom: 5px;
-    padding-left: 5%;
-    margin-left: 5%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: white;
+/*    padding-bottom: 5px;*/
+/*    padding-left: 5%;*/
+/*    margin-left: 5%;*/
 }
 
 
