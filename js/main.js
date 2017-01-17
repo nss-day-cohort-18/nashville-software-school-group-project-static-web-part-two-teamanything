@@ -1,7 +1,7 @@
 var productsList = [
 
 	{
-		name: "yeah",
+		name: "yeahtalbot",
 		description: "It is wonderful",
 		price: "$5.00",
 		url: "http:/"
@@ -66,12 +66,12 @@ var productsList = [
 //////////////////////////////////////////////////////////////////
 var mainContent = document.getElementsByClassName("main-content");
 
-for (var i = 1; i < productsList.length; i++) {                            //start loop
-	var mainSection = document.createElement("section");                 //create the <article> tag
-	mainSection.setAttribute("class","card");                            //create and name the article class="card1,2,3 etc."
-	mainSection.innerHTML =                                              //physically create the list
+for (var i = 0; i < productsList.length; i++) {                  //start loop
+	var mainSection = document.createElement("section");     //create the <article> tag
+	mainSection.setAttribute("class","card");                //create and name the article class="card1,2,3 etc."
+	mainSection.innerHTML =                                  //physically create the list
 		"<h3>" + productsList[i].name + "</h3>" +            
 		"<p>" + productsList[i].price + "</p>" + 
 		"<p>" + productsList[i].description + "</p>" +
-		"<img src=\"img/mushroom-" + i + "-300X300.jpg\" class=\"card-images\">";// + "</section>";
-	mainContent[0].appendChild(mainSection);
+		"<img src=\"img/mushroom-" + (i+1) + "-300X300.jpg\" class=\"card-images\">";
+	mainContent[0].appendChild(mainSection);}
