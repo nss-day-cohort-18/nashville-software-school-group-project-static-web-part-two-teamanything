@@ -24,11 +24,9 @@ header {
     width: 100%;
     margin-top: 0;
     float: left;  
-/*    background-color: #339966;*/
-    
 }
 
-main-content {
+.main-content {
     width: 100%;
     height: 100%;
     clear: both;
@@ -80,11 +78,20 @@ main-content {
     list-style: none;
     display: inline-block;
     float: left;
-    margin: 15px 5px 0;
+    margin: 15px 5px 0 5px;
     font-size: .75rem;
-    color: white;
-    
+    color: white; 
+    box-shadow: 2px 2px 2px #297e54;
 }
+
+.nav-header a li:hover {
+    background-color: #309261;
+    margin: 5px;
+    padding: 5px;
+    color: #464646;
+    box-shadow: 2px 2px 2px #309261;
+}
+
 
 .navbar-logo {
     list-style: none;
@@ -92,7 +99,7 @@ main-content {
     width: 35%;
     height: 40%;
     float: right;
-    font-size: 2rem;
+    font-size: 4vw;
     margin-right: 0;
     padding-bottom: 5px;
     padding-left: 15px;
@@ -143,6 +150,50 @@ footer ul li:hover a {
 	HOME 
 *************/
 
+#backgroundImg {
+    background: 
+        linear-gradient(to left, #d9d9d9, transparent 60%) no-repeat,
+        #d9d9d9 url('../img/home-page-bg.jpg') no-repeat left;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+
+.homeh1 {
+    width: 100%
+    height: auto;
+    margin: 0 0 0 10px;
+    padding-top: 1em;
+    font-style: italic;
+    color: #262626;
+    background-image: linear-gradient(to left, #d9d9d9, transparent 100%)
+}
+
+.homeh2 {
+    text-align: center;
+    width: 30%;
+    height: auto;
+    float: right;
+    font-style: oblique;
+    color: white;
+    line-height: 2.5em;
+    font-size: 3vw;
+    background-color: rgba(0,0,0, .50);
+    margin-right: 5%;
+    border-radius: 100%;
+    border: 3px solid #262626;
+    box-shadow: 5px 5px 5px #464646;
+}
+
+.homeh2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.homeh2 a:visited {
+    color: white;
+    text-decoration: none;
+}
 
 
 /*************
