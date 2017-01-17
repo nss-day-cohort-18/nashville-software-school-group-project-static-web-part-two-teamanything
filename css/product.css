@@ -1,0 +1,38 @@
+body {
+    background-color: #fff;
+}
+.product-content {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+.card {
+  background-color: #FFF;
+  border: 1px solid lightgray;
+  border-radius: .5em;
+  width: 30%;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.card-header>h3 {
+    margin: 0;
+}
+
+.card>p {
+    color: #777;
+    margin: 0;
+    padding: 1em;
+}
+.card-header {
+  text-align: center;
+  padding: 1em 0;
+
+}
+
+.card-img {
+  height: 10em;
+  margin: .5em auto;
+  width: 10em;
+}
