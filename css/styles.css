@@ -157,7 +157,11 @@ footer ul li:hover a {
     color: lightgray;
 }
 
-
+footer img {
+    height: 50px;
+    width: 50px;
+    padding: 0 1em;
+}
 
 /*************
 	HOME 
