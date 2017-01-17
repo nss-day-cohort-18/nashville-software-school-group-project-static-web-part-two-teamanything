@@ -209,12 +209,16 @@ footer ul li:hover a {
     border:1px black solid ;
 }
 
-.left-column , .right-column {
+.left-column , 
+.right-column {
     float: left;
     width: 45%;
     text-align: center;
 }
 
+.right-column label {
+    padding-bottom: 10em;
+}
 
 
 
