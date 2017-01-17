@@ -58,20 +58,21 @@ var productsList = [
 
 	{
 		name: "Magic Mushroom",
-		description: "No longer sold in the United States.",
+		description: "Gravida id eget suscipit, sed in a pretium, ornare amet. Leo volutpat dapibus, wisi pede eleifend donec, ullamcorper massa potenti lobortis id mauris, morbi diam velit massa eget ut mauris. Suscipit feugiat ligula facilisi sit libero. Pede in est pulvinar a, turpis sodales. Curabitur donec amet non bibendum mi libero, sit nibh et duis pellentesque donec, quis magna curae proin eu neque. Quis ut ac, magnis tincidunt, a nulla odio ut malesuada a sapiente, adipiscing porta sed ac fusce integer, molestie et vehicula. Convallis in in neque sed nulla.",
 		price: "$135.00",
 		url: ""
 	}
 ]	
 //////////////////////////////////////////////////////////////////
-var mainContent = document.getElementsByClassName("main-content");
+var productContent = document.getElementsByClassName("product-content");
 
-for (var i = 0; i < productsList.length; i++) {                  //start loop
-	var mainSection = document.createElement("section");     //create the <article> tag
-	mainSection.setAttribute("class","card");                //create and name the article class="card1,2,3 etc."
-	mainSection.innerHTML =                                  //physically create the list
-		"<h3>" + productsList[i].name + "</h3>" +            
-		"<p>" + productsList[i].price + "</p>" + 
-		"<p>" + productsList[i].description + "</p>" +
-		"<img src=\"img/mushroom-" + (i+1) + "-300X300.jpg\" class=\"card-images\">";
-	mainContent[0].appendChild(mainSection);}
+for (var i = 0; i < productsList.length; i++) {                     //start loop
+	var productSection = document.createElement("section");     //create the <article> tag
+	productSection.setAttribute("class","card");                //create and name the article class="card1,2,3 etc."
+	productSection.innerHTML =                                  //physically create the list
+		'<div class="card-header">' + '<h3>' + productsList[i].name + '</h3>' + '</div>' +            
+		'<p>' + productsList[i].price + '</p>' + 
+		'<p>' + productsList[i].description + '</p>' +
+		'<div class="card-img">' + '<img src="img/mushroom-' + (i+1) + '-300X300.jpg" class="card-img">' + '</div>';
+	productContent[0].appendChild(productSection);
+};

@@ -123,6 +123,7 @@ header {
 	FOOTER
 *************/
 
+/*
 footer {
     background-color: #339966;
     color: white;
@@ -131,6 +132,7 @@ footer {
     text-align: center;
     height: 15em;
 }
+*/
 
 footer section {
     padding-bottom: 10px;
@@ -155,6 +157,23 @@ footer a {
 
 footer ul li:hover a {
     color: lightgray;
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+    padding: 0 1em;
+}
+
+footer {
+    background-color: #339966;
+    color: white;
+    margin: 0;
+    /*padding: 1px 0;*/
+    padding-top: 1px;
+    padding-bottom: 1.4em;
+    text-align: center;
+    height: 15em;
 }
 
 
