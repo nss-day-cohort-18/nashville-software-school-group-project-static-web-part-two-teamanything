@@ -195,9 +195,25 @@ footer ul li:hover a {
 
 
 .contact-banner {
-    background-image: url('/img/contact-bg.jpeg');
+    background-image: url('img/contact-bg.jpeg');
+    height: 5rem;
+    text-align: center;
 }
 
+.label-above-form {
+    text-align: center;
+}
+
+.contact-column-wrapper {
+    overflow: auto;
+    border:1px black solid ;
+}
+
+.left-column , .right-column {
+    float: left;
+    width: 45%;
+    text-align: center;
+}
 
 
 
