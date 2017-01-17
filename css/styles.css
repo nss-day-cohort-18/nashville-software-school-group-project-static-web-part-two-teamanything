@@ -41,11 +41,14 @@ header {
 /*************
 	NAVBAR
 *************/
+header {
+    background-color:  #339966;
+}
 
 .nav {
     height: 100%;
-    width: 100%;
-    margin-top:;
+    width: 70%;
+    margin-top: 10px;
     margin-left: 0;
 }
 .nav-header {
@@ -96,13 +99,14 @@ header {
 .navbar-logo {
     list-style: none;
     text-decoration: none;
-    width: 35%;
+    width: 30%;
     height: 40%;
     float: right;
-    font-size: 4vw;
+/*    font-size: 1rem;*/
     margin-right: 0;
     padding-bottom: 5px;
     padding-left: 15px;
+    margin-left: 10px;
 }
 
 
@@ -160,12 +164,12 @@ footer ul li:hover a {
 }
 
 .homeh1 {
-    width: 100%
+    width: 100%;
     height: auto;
     margin: 0 0 0 10px;
     padding-top: 1em;
     font-style: italic;
-    color: #262626;
+    color: white;
     background-image: linear-gradient(to left, #d9d9d9, transparent 100%)
 }
 
